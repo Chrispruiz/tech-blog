@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
   }
-  
+
   body, html {
     height: 100%;
     padding: 0;
@@ -21,6 +21,18 @@
     color: #3486eb;
   }
   
+  .button.is-primary {
+    background-color:CadetBlue;
+    border-color: transparent;
+    color: #fff;
+  }
+
+  .button.is-danger {
+    background-color: DeepSkyBlue;
+    border-color: transparent;
+    color: #fff;
+}
+
   button {
     background-color: #225ca3;
     border: 0;
@@ -117,6 +129,11 @@
     background-color: #ff643d;
   }
   
+
+  .has-background-grey-lighter {
+    background-color: LightSkyBlue!important;
+  }
+
   .post {
     margin-bottom: 2%;
     line-height: 150%;
@@ -131,15 +148,6 @@
   .edit-link {
     display: block;
     margin: -1.5% 0 2% 0;
-  }
-  
-  .upvote-btn {
-    background-color: #197d0f;
-    transition: background-color .1s;
-  }
-  
-  .upvote-btn:hover {
-    background-color: #1f9c13;
   }
   
   .comment-form {
