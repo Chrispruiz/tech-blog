@@ -7,7 +7,6 @@
   ![Screenshot showing homepage](https://github.com/Chrispruiz/tech-blog/blob/main/images/home.png?raw=true)
   ## Table of Contents
   * [Installation](#installation) 
-  * [Usage](#usage)
   * [Questions](#questions)
 
 
@@ -17,10 +16,6 @@
       DB_NAME='tech_blog'
       DB_USER='root'
       DB_PW= '<your password>'
-
-      
-  ## Usage:
-  
   
   
   ## Questions:
